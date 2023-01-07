@@ -1,0 +1,11 @@
+@import "css/header.css";
+@import "css/setting.css";
+@import "css/slider.css";
+@import "css/category.css";
+@import "css/container.css";
+@import "css/colection.css";
+@import "css/offer.css";
+
+*{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,35 @@
+div.container>div.parent{
+    width: 100%;
+    height: 235px;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top:20px ;
+
+
+}
+div.container>div.parent>div{
+    width:20%;
+    height: 235px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 15px auto;
+    margin: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+div.container>div.parent>div>img{
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+

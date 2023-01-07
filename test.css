@@ -1,0 +1,33 @@
+div.parent{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: calc(50% - 400px /2);
+    
+    
+}
+div.parent>div.child{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(128, 128, 128, 0.344);
+    position: relative;
+    top: 100%;
+
+}
+div.parent>div.shadow>img{
+    width: inherit;
+    height: inherit;
+}
+div.parent>div.shadow{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(128, 128, 128, 0.344);
+    position: relative;
+    top: -100%;
+    left: -100%;
+
+}
+div.parent:hover>div.shadow{
+    top:0 ;
+    left: 0;
+}
