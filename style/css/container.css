@@ -1,35 +1,172 @@
-div.container>div.parent{
-    width: 100%;
-    height: 235px;
-    display: inline-block;
-    margin: 0px auto;
-    text-align: center;
-    background-color: whitesmoke;
-    padding-top:20px ;
-
-
+div.container > div.parent {
+	width: 100%;
+	height: 235px;
+	display: inline-block;
+	margin: 0px auto;
+	text-align: center;
+	background-color: whitesmoke;
+	padding-top: 20px;
 }
-div.container>div.parent>div{
-    width:20%;
-    height: 235px;
-    background-color: aqua;
-    display: inline-block;
-    margin: 15px auto;
-    margin: 10px;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+div.container > div.parent > div {
+	width: 20%;
+	height: 235px;
+	background-color: aqua;
+	display: inline-block;
+	margin: 15px auto;
+	margin: 10px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
 }
-div.container>div.parent>div>img{
-    object-fit: cover;
-    width: 100%;
-    height: inherit;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+div.container > div.parent > div > img {
+	object-fit: cover;
+	width: 100%;
+	height: inherit;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
 }
 
+div.container1 {
+	width: 85%;
+	height: 300px;
+	background-color: #ee3c51;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	position: relative;
+	margin-top: 300px;
+	margin: 0 auto;
+}
+div.container1 > div.right {
+	position: absolute;
+	right: 20px;
+	width: 20%;
+	align-items: center;
+	padding: 10px;
+}
+div.container1 > div.right > div:nth-child(1) {
+	padding-right: 20px;
+}
+div.container1 > div.right > div:nth-child(2) {
+}
+div.container1 > div.right > div:nth-child(3) {
+	color: aliceblue;
+	padding-right: 20px;
+}
+<!-- Demo styles -- > <style > html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper2 {
+	width: 80%;
+	height: 90%;
+	position: absolute;
+	left: 13px;
+	bottom: 15px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	overflow: hidden;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+@media (max-width: 760px) {
+	.swiper-button-next {
+		right: 20px;
+		transform: rotate(90deg);
+	}
+
+	.swiper-button-prev {
+		left: 20px;
+		transform: rotate(90deg);
+	}
+}
+div.swiper2 > div.swiper-wrapper > div.swiper-slide > a > div.image {
+	width: 110px;
+	height: 110px;
+  margin-right: 16px;
+  position: absolute;
+  top: 15px;
+}
+div.swiper2 > div.swiper-wrapper > div.swiper-slide > a > div.image>img{
+
+}
+.swiper-slide > .card {
+	text-decoration: none;
+}
+.swiper-slide > .card > .price > .discount > span:nth-child(2) {
+	background-color: #ef394e;
+	height: 20px;
+	width: 34px;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+	color: white;
+	font-size: 14px;
+	padding: 3px;
+	margin-left: 30px;
+}
+.swiper-slide > .card > .price > .discount > span:nth-child(3) {
+  color: #000;
+  font-size: 16px;
+}
+.swiper-slide > .card > .price > .discount > span:nth-child(1){
+  position: absolute;
+  font-size: 10px;
+  font-family: 'Byekan';
+  font-weight: 26px;
+  right: 136px;
+  top: 185px;
+  color: black;
+}
+.swiper-slide > .card > .price > .discount > del{
+  color: rgb(173, 173, 173);
+  font-size: 14px;
+  position: absolute;
+  bottom: 25px;
+  right: 89px;
+}
+.swiper-slide > .card > .price > .discount {
+  margin-top: 35px;
+}

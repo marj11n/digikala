@@ -6,6 +6,9 @@
 @import "css/colection.css";
 @import "css/offer.css";
 
-*{
+/* *{
+    background-color: whitesmoke;
+} */
+.wrapper{
     background-color: whitesmoke;
 }
