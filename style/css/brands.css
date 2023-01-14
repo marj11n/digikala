@@ -2,12 +2,49 @@
 div.brands{
     width: 100%;
     height: 300px;
-    background-color: aquamarine;
+    position: relative;
+
 }
 div.brands>div.border{
     width: 90%;
-    height: inherit;
-    border: 2px black;
-    border-width: 1px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+
+
+}
+div.brands>div.border>span>img{
+    width: 30px;
+}
+div.brands>div.border>span{
+    position: absolute;
+    right: 594px;
+    top: 31px;
+}
+div.brands>div.border>.title{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'BYEKAN';
+    font-weight: 900;
+    position: absolute;
+    right: 635px;
+    bottom: 236px;
+}
+
+div.brands>div.border>div:nth-child(3){
+    text-align: center;
+    margin-top: 100px;
+}
+div.brands>div.border>div:nth-child(3)>div{
     display: inline-block;
+    border-left: 1px solid #dddddd;
+    margin: 1px;
+}
+div.brands>div.border>div:nth-child(3)>div>img{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
