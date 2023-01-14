@@ -1,87 +1,103 @@
 .colection {
-  width: 100%;
-  height: 632px;
-  background-color: whitesmoke;
+	width: 100%;
+	height: 632px;
+	background-color: whitesmoke;
+	text-align: center;
 }
 .colection > div.title {
-  font-size: 25px;
-  font-family: BYekan;
-  text-align: center;
+	font-size: 25px;
+	font-family: BYekan;
+	text-align: center;
 }
 .colection > div.title > p {
-  padding-top: 40px;
+	padding-top: 40px;
 }
 
 .colection > div.first {
-  height: 210px;
-  width: 90%;
-  text-align: center;
-  margin: 0 auto;
-  vertical-align: top;
-  padding-top: 50px;
+	height: 210px;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: top;
+	padding-top: 50px;
 }
 .colection > div.first > div {
-  height: 200px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  margin: 5px;
+	height: 200px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 5px;
 }
 .colection > div.first > div > img {
-  width: 180px;
-  height: 180px;
-  display: inline-block;
-  margin: 10px;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin: 10px;
 }
 .colection > div.second {
-  width: 75%;
-  height: 210px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 100px;
+	width: 75%;
+	height: 210px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
 }
 .colection > div.second > div {
-  height: 200px;
-  display: inline-block;
-  text-align: center;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
 }
 .colection > div.second > div > img {
-  width: 180px;
-  height: 180px;
-  margin: 10px;
+	width: 180px;
+	height: 180px;
+	margin: 10px;
 }
 .colection > div.second > div > p {
-  font-size: 13px;
-  font-family: BYekan;
-  font-weight: 700;
-  line-height: 2.17;
+	font-size: 13px;
+	font-family: BYekan;
+	font-weight: 700;
+	line-height: 2.17;
 }
 .colection > div.first > div > p {
-  font-size: 13px;
-  font-family: BYekan;
-  font-weight: 700;
-  line-height: 2.17;
+	font-size: 13px;
+	font-family: BYekan;
+	font-weight: 700;
+	line-height: 2.17;
 }
 .colection > div.ad {
-  width: 100%;
-  height: 257px;
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 200px;
+	width: 90%;
+	height: 257px;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 200px;
+  position: relative;
 }
-.colection > div.ad > div {
-  display: inline-block;
-  text-align: center;
+.colection > div.ad > div:nth-child(1) {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 45%;
+	position: absolute;
+	top: 27px;
+	right: 663px;
 }
+.colection > div.ad > div:nth-child(2) {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 45%;
+	position: absolute;
+	top: 27px;
+	left: 712px;
+}
+
 .colection > div.ad > div > img {
-  width: 650px;
-  height: 250px;
-  display: inline-block;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  margin: 10px;
+	width: 630px;
+	height: 250px;
+	display: inline-block;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
 }
