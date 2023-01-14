@@ -1,0 +1,38 @@
+div.ad {
+	width: 90%;
+	height: 257px;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 200px;
+	position: relative;
+}
+div.ad > div:nth-child(1) {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 45%;
+	position: absolute;
+	right: 736px;
+	bottom: 150px;
+}
+div.ad > div:nth-child(2) {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 45%;
+	position: absolute;
+	left: 636px;
+	bottom: 150px;
+}
+
+div.ad > div > img {
+	width: 630px;
+	height: 250px;
+	display: inline-block;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+}
