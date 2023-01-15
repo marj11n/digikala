@@ -1,0 +1,64 @@
+div.digiclub {
+	width: 90%;
+	height: 88px;
+	background: rgb(52, 165, 199);
+	background: linear-gradient(
+		90deg,
+		rgba(52, 165, 199, 1) 0%,
+		rgba(0, 114, 148, 1) 100%
+	);
+	margin: 10px auto;
+	border: radius 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	position: relative;
+}
+div.digiclub > a > div.logo > img {
+	width: 120px;
+	height: 33px;
+	position: absolute;
+	top: 30px;
+	right: 36px;
+}
+div.digiclub > a > div.img > img {
+	width: 885px;
+	height: 65px;
+	border-radius: 10px;
+	position: absolute;
+	top: 12px;
+	left: 15px;
+}
+div.digiclub > div.score {
+	width: 100px;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	right: 250px;
+}
+div.digiclub > div.score > div:nth-child(1) {
+	display: inline-block;
+	position: absolute;
+	top: -3px;
+	right: -8px;
+}
+div.digiclub > div.score > div:nth-child(2) {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 900;
+	position: absolute;
+	right: 70px;
+	top: -9px;
+}
+
+div.digiclub > div.score > div:nth-child(3) {
+	display: inline-block;
+	position: absolute;
+	right: 95px;
+	top: -10px;
+}
+div.digiclub > div.score > div:nth-child(3) > img {
+	width: 30px;
+}
