@@ -1,0 +1,180 @@
+div.digiplus {
+	width: 90%;
+	height: 443px;
+	background-color: #941b80;
+	border-radius: 25px;
+	margin: 0 auto;
+	margin-top: -80px;
+	position: relative;
+}
+div.digiplus > div.svg > div.logo > img {
+	width: 400px;
+	position: absolute;
+	bottom: 4px;
+}
+div.digiplus > div.svg > div:nth-child(1) {
+	position: absolute;
+	top: 33px;
+	right: 40px;
+}
+div.digiplus > div.svg > div:nth-child(2) {
+	font-size: 15px;
+	color: #fff;
+	position: absolute;
+	top: 80px;
+	right: 40px;
+}
+div.digiplus > div.svg > div:nth-child(3) {
+	font-size: 15px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-width: 1px;
+	position: absolute;
+	top: 155px;
+	right: 40px;
+	border-radius: 5px;
+	width: 105px;
+	height: 39px;
+	text-align: center;
+	line-height: 39px;
+}
+
+div.digiplus > div.svg > div:nth-child(3) > i {
+	position: absolute;
+	top: 12px;
+	left: 7px;
+}
+div.digiplus > div.right {
+	width: 436px;
+	height: 400px;
+	background-color: #fff;
+	position: absolute;
+	top: 22px;
+	right: 399px;
+	border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-ms-border-radius: 0px 10px 10px 0px;
+	-o-border-radius: 0px 10px 10px 0px;
+}
+div.digiplus > div.left {
+	width: 436px;
+	height: 400px;
+	background-color: #fff;
+	position: absolute;
+	top: 22px;
+	left: 20px;
+	border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-ms-border-radius: 10px 0px 0px 10px;
+	-o-border-radius: 10px 0px 0px 10px;
+}
+div.digiplus > div.right > a > div.header > div.svg {
+	color: #080a38;
+	font-size: 16px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-weight: 900;
+}
+div.digiplus > div.right > a > div.header > div.svg > i {
+	color: #941b80;
+}
+div.digiplus > div.right > a > div.header > div.seeall {
+	font-size: 13px;
+	position: absolute;
+	left: 24px;
+	top: 20px;
+	font-weight: 900;
+	color: #941b80;
+}
+div.digiplus > div.right > a > div.header > div.seeall > i {
+	font-size: 15px;
+	position: absolute;
+	left: -12px;
+	top: 2px;
+}
+div.digiplus > div.left > a > div.header > div.svg {
+	color: #080a38;
+	font-size: 16px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-weight: 900;
+}
+div.digiplus > div.left > a > div.header > div.svg > i {
+	color: #941b80;
+}
+div.digiplus > div.left > a > div.header > div.seeall {
+	font-size: 13px;
+	position: absolute;
+	left: 24px;
+	top: 20px;
+	font-weight: 900;
+	color: #941b80;
+}
+div.digiplus > div.left > a > div.header > div.seeall > i {
+	font-size: 15px;
+	position: absolute;
+	left: -12px;
+	top: 2px;
+}
+div.right > div.product,
+div.left > div.product {
+	margin: 0px auto;
+	position: absolute;
+	text-align: center;
+	top: 80px;
+    right: 7px;
+}
+div.right > div.product > div,
+div.left > div.product > div {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+div.right > div.product > div > a,
+div.left > div.product > div > a {
+	display: inline-block;
+}
+div.right > div.product > div > a > div.img,
+div.left > div.product > div > a > div.img {
+	display: inline-block;
+	width: 140px;
+}
+div.right > div.product > div > a > div.img > img,
+div.left > div.product > div > a > div.img > img {
+	display: inline-block;
+	width: 110px;
+}
+div.right > div.product > div > a > div.img > div.title,
+div.left > div.product > div > a > div.img > div.title {
+	height: 24px;
+	background-color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-top: -10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	color: #941b80;
+	width: 100px;
+}
+div.right > div.product > div > a > div.img > div.title > div:nth-child(1),
+div.left > div.product > div > a > div.img > div.title > div:nth-child(1) {
+	font-size: 12px;
+	display: inline-block;
+	font-weight: 700;
+}
+div.right > div.product > div > a > div.img > div.title > div:nth-child(2),
+div.left > div.product > div > a > div.img > div.title > div:nth-child(2) {
+	font-size: 10px;
+	display: inline-block;
+}
+div.right > div.product > div > a > div.img > div.title > div:nth-child(3),
+div.left > div.product > div > a > div.img > div.title > div:nth-child(3) {
+	font-size: 12px;
+	display: inline-block;
+	font-weight: 800;
+}
