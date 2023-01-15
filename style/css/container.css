@@ -123,16 +123,16 @@ body {
 div.swiper2 > div.swiper-wrapper > div.swiper-slide > a > div.image {
 	width: 110px;
 	height: 110px;
-  margin-right: 16px;
-  position: absolute;
-  top: 15px;
+	margin-right: 16px;
+	position: absolute;
+    top: 27px;
 }
-div.swiper2 > div.swiper-wrapper > div.swiper-slide > a > div.image>img{
-
+div.swiper2 > div.swiper-wrapper > div.swiper-slide > a > div.image > img {
 }
 .swiper-slide > .card {
 	text-decoration: none;
 }
+
 .swiper-slide > .card > .price > .discount > span:nth-child(2) {
 	background-color: #ef394e;
 	height: 20px;
@@ -148,25 +148,25 @@ div.swiper2 > div.swiper-wrapper > div.swiper-slide > a > div.image>img{
 	margin-left: 30px;
 }
 .swiper-slide > .card > .price > .discount > span:nth-child(3) {
-  color: #000;
-  font-size: 16px;
+	color: #000;
+	font-size: 16px;
 }
-.swiper-slide > .card > .price > .discount > span:nth-child(1){
-  position: absolute;
-  font-size: 10px;
-  font-family: 'Byekan';
-  font-weight: 26px;
-  right: 136px;
-  top: 185px;
-  color: black;
+.swiper-slide > .card > .price > .discount > span:nth-child(1) {
+	position: absolute;
+	font-size: 10px;
+	font-family: "Byekan";
+	font-weight: 26px;
+	right: 120px;
+	top: 185px;
+	color: black;
 }
-.swiper-slide > .card > .price > .discount > del{
-  color: rgb(173, 173, 173);
-  font-size: 14px;
-  position: absolute;
-  bottom: 25px;
-  right: 89px;
+.swiper-slide > .card > .price > .discount > del {
+	color: rgb(173, 173, 173);
+	font-size: 14px;
+	position: absolute;
+	bottom: 25px;
+	right: 89px;
 }
 .swiper-slide > .card > .price > .discount {
-  margin-top: 35px;
+	margin-top: 35px;
 }
