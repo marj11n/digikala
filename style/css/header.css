@@ -70,7 +70,6 @@ header > div.menu {
 	width: 100%;
 	height: 40px;
 	background-color: whitesmoke;
-  
 }
 header > div.menu > nav {
 	width: inherit;
@@ -81,7 +80,6 @@ header > div.menu > nav > ul {
 	height: inherit;
 	padding-right: 20px;
 	list-style-type: none;
-
 }
 header > div.menu > nav > ul > li {
 	display: inline-block;
@@ -99,18 +97,29 @@ header > div.menu > nav > ul > li > a {
 	font-family: Byekan;
 	color: #2b2b2b;
 }
+header > div.menu > nav > ul > li > b > a {
+	width: auto;
+	height: inherit;
+	display: inline-block;
+	padding: 0px 10px;
+	line-height: 40px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Byekan;
+	color: #202020;
+	font-weight: bolder;
+}
 
 header > div.loc {
 	position: absolute;
 	top: 105px;
 	left: 0px;
 }
-header > div.loc >label>i{
-  font-weight: 300px;
- padding-left: 10px;
-font-size: 16px;
+header > div.loc > label > i {
+	font-weight: 300px;
+	padding-left: 10px;
+	font-size: 16px;
 }
-
 
 header > div.loc label[for="show"] {
 	display: inline-block;
@@ -127,30 +136,409 @@ header > div.loc label[for="show"] {
 	-ms-transition: 100ms;
 	-o-transition: 100ms;
 	cursor: pointer;
-  font-family: byekan;
-  z-index: 999999999;
+	font-family: byekan;
+	z-index: 999999999;
 }
 #show,
 #close {
-  display: none;
+	display: none;
 }
-:root{
-  font-family: Byekan;
+:root {
+	font-family: Byekan;
 }
-header>div.middle>div:nth-child(2){
-  position: absolute;
-  top: 90px;
-  left: 22px;
-  z-index: 99;
-  padding-left: 10px;
+header > div.middle > div:nth-child(2) {
+	position: absolute;
+	top: 90px;
+	left: 22px;
+	z-index: 99;
+	padding-left: 10px;
 }
-header>div.middle>div:nth-child(2)>i{
-  padding-right: 40px;
-  font-size: 20px;
-  border-left: 1px gray;
-  font-weight: 400;
+header > div.middle > div:nth-child(2) > i {
+	padding-right: 40px;
+	font-size: 20px;
+	border-left: 1px gray;
+	font-weight: 400;
+}
+header > div.middle > div:nth-child(2) > i:nth-child(1) {
+	border-left: 1px gray;
+}
 
+div.menu > nav > ul > li:nth-child(1):hover > div.hover {
+	display: block;
 }
-header>div.middle>div:nth-child(2)>i:nth-child(1){
-  border-left: 1px gray;
+div.menu > nav > ul > li {
+	position: relative;
+}
+div.menu > nav > ul > li > div.hover {
+	width: calc(100vw - 40px);
+	height: 600px;
+	background-color: whitesmoke;
+	position: absolute;
+	right: 0px;
+	z-index: 9999;
+	display: none;
+	box-shadow: 0 1px 2px black;
+	
+}
+div.menu > nav > ul > li:nth-child(1):hover > div {
+	display: block;
+}
+div.menu
+	> nav
+	> ul
+	> li:nth-child(1):hover
+	> a
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1,
+.products2,
+.products3,
+.products4 {
+	width: 18%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+div.menu > nav > ul > li > div.hover > div.parent {
+	width: 16%;
+	overflow: auto;
+	height: inherit;
+	box-shadow: 0 1px 1px black;
+}
+div.menu > nav > ul > li > div.hover > div.parent > div {
+	width: 100%;
+	height: 55px;
+}
+div.menu > nav > ul > li > div.hover > div.parent > div > a {
+	text-decoration: none;
+	color: #2b2b2b;
+	width: 100%;
+	display: block;
+	font-size: 14px;
+	padding: 0 20px 0 0;
+	height: 40px;
+	line-height: 40px;
+}
+div.menu > nav > ul > li > div.hover > div.parent > div > a > span > i {
+	margin-left: 11px;
+}
+div.menu > nav > ul > li > div.hover > div.parent > div > a:hover {
+	background-color: #ecebeb;
+	color: #ee384e;
+}
+div.menu > nav > ul > li > div.hover > div.parent > div > div.submenu {
+	width: 85%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+div.menu > nav > ul > li > div.hover > div.parent > div > div.submenu {
+	display: block;
+	position: absolute;
+	top: 70px;
+}
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1,
+.products2,
+.products3,
+.products4 {
+	width: 18%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+a {
+	text-decoration: none;
+}
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1
+	> a
+	> div,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products2
+	> a
+	> div,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products3
+	> a
+	> div,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products4
+	> a
+	> div {
+	color: #696767;
+	padding: 6px;
+	margin-right: 20px;
+	font-size: 12px;
+}
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1
+	> a:hover
+	> div,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products2
+	> a:hover
+	> div,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products3
+	> a:hover
+	> div,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products4
+	> a:hover
+	> div {
+	color: #ee384e;
+	padding: 6px;
+	margin-right: 20px;
+	font-size: 12px;
+}
+
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1
+	> a
+	> div.bold,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products2
+	> a
+	> div.bold,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products3
+	> a
+	> div.bold,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products4
+	> a
+	> div.bold {
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1
+	> a
+	> div.bold:hover,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products2
+	> a
+	> div.bold:hover,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products3
+	> a
+	> div.bold:hover,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products4
+	> a
+	> div.bold:hover {
+	font-size: 12px;
+	font-weight: bold;
+	color: #ee384e;
+}
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1
+	> a
+	> div.allpro {
+	position: absolute;
+	font-size: 13px;
+	top: -62px;
+	color: #2b2b2b;
+	font-weight: bolder;
+}
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1
+	> a
+	> div.allpro
+	> i {
+	position: absolute;
+	top: 10px;
+	left: -8px;
+}
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products1
+	> a
+	> div.bold
+	> i,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products2
+	> a
+	> div.bold
+	> i,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products3
+	> a
+	> div.bold
+	> i,
+div.menu
+	> nav
+	> ul
+	> li
+	> div.hover
+	> div.parent
+	> div
+	> div.submenu
+	> div.products4
+	> a
+	> div.bold
+	> i {
+	margin-right: 7px;
+	font-size: 14px;
 }
