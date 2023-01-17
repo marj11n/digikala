@@ -178,7 +178,6 @@ div.menu > nav > ul > li > div.hover {
 	z-index: 9999;
 	display: none;
 	box-shadow: 0 1px 2px black;
-	
 }
 div.menu > nav > ul > li:nth-child(1):hover > div {
 	display: block;
@@ -227,6 +226,7 @@ div.menu > nav > ul > li > div.hover > div.parent > div > a > span > i {
 div.menu > nav > ul > li > div.hover > div.parent > div > a:hover {
 	background-color: #ecebeb;
 	color: #ee384e;
+	height: 40px;
 }
 div.menu > nav > ul > li > div.hover > div.parent > div > div.submenu {
 	width: 85%;
@@ -541,4 +541,27 @@ div.menu
 	> i {
 	margin-right: 7px;
 	font-size: 14px;
+}
+.hover-underline-animation {
+	display: inline-block;
+	position: relative;
+	color: #ee384e;
+}
+
+.hover-underline-animation::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #ee384e;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
