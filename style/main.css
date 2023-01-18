@@ -9,6 +9,8 @@
 @import "css/ad.css";
 @import "css/digiplus.css";
 @import "css/digiclub.css";
+@import "css/footer.css";
+
 
 
 
@@ -21,4 +23,5 @@
 }
 *{
     font-family: 'Byekan';
+    scroll-behavior: smooth;
 }

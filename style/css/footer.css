@@ -1,0 +1,125 @@
+div.footer {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+div.footer > div.logo {
+	width: 97%;
+	margin: 70px auto;
+	height: 50px;
+}
+div.footer > div.logo > img {
+	position: absolute;
+	width: 120px;
+}
+div.footer > div.logo > a {
+	border: 2px solid rgb(183, 182, 182);
+	border-radius: 7px;
+	position: absolute;
+	left: 30px;
+	width: 138px;
+	height: 40px;
+	line-height: 22px;
+	color: rgb(183, 182, 182);
+	padding: 5px;
+}
+div.footer > div.phone {
+	width: 97%;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: -70px;
+	font-size: 12px;
+}
+div.footer > div.phone > p {
+	display: inline-block;
+	color: #3f4064;
+}
+div.footer > div.phone > p.left {
+	position: absolute;
+	right: 226px;
+}
+div.footer > div.phone > p.right {
+	position: absolute;
+	right: 22px;
+}
+
+div.footer > div.phone > i {
+	position: absolute;
+	right: 196px;
+}
+div.footer > div.logo > a > i {
+	position: absolute;
+	left: 20px;
+	bottom: 13px;
+}
+div.footer > div.logo5 {
+	width: 97%;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+div.footer > div.logo5 > div {
+	display: inline-block;
+	width: 19%;
+	padding-top: 40px;
+}
+div.footer > div.logo5 > div > img {
+	display: inline-block;
+}
+div.footer > div.logo5 > div > div.title {
+	font-size: 12px;
+}
+div.footer > div.links {
+	width: 97%;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+div.footer > div.links > div {
+	display: inline-block;
+	width: 340px;
+	text-align: initial;
+	vertical-align: top;
+}
+div.footer > div.links > div > p {
+	color: #3f4064;
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 4px;
+	height: 70px;
+}
+div.footer > div.links > div > a {
+	display: block;
+	font-size: 14px;
+	color: #767790;
+	margin-bottom: 4px;
+	height: 40px;
+}
+div.footer > div.links > div:nth-child(4) > a > img {
+	width: 340px;
+}
+div.footer > div.links > div:nth-child(4) > span > p {
+	color: #3f4064;
+	font-size: 16px;
+	font-weight: 900;
+	margin-bottom: 4px;
+	height: 70px;
+	margin-top: 60px;
+}
+div.footer > div.links > div:nth-child(4) > input {
+	width: 266px;
+	height: 40px;
+	background-color: #eaeaea;
+	border: 1px solid #eaeaea;
+	border-radius: 5px;
+	font-size: 15px;
+}
+div.footer > div.links > div:nth-child(4) > input[type="submit"] {
+	width: 60px;
+	height: 40px;
+	background-color: #c5c5c5;
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+	color: #f9f9f9;
+}
