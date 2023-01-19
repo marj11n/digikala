@@ -121,7 +121,7 @@ header > div.loc > label > i {
 	font-size: 16px;
 }
 
-/* header > div.loc label[for="show"] {
+header > div.loc label[for="show"] {
 	display: inline-block;
 	width: 150px;
 	height: 40px;
@@ -142,8 +142,8 @@ header > div.loc > label > i {
 #show,
 #close {
 	display: none;
-} */
-
+}
+/* 
 label[for="show"] {
 	display: inline-block;
 	width: 149px;
@@ -220,7 +220,7 @@ label[for="close"] {
 }
 #close:checked ~ div.show {
 	left: -180%;
-}
+} */
 
 :root {
 	font-family: Byekan;
