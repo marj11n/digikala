@@ -121,7 +121,7 @@ header > div.loc > label > i {
 	font-size: 16px;
 }
 
-header > div.loc label[for="show"] {
+/* header > div.loc label[for="show"] {
 	display: inline-block;
 	width: 150px;
 	height: 40px;
@@ -142,7 +142,86 @@ header > div.loc label[for="show"] {
 #show,
 #close {
 	display: none;
+} */
+
+label[for="show"] {
+	display: inline-block;
+	width: 149px;
+	height: 40px;
+	text-align: center;
+	font-size: 10px;
+	color: black;
+	line-height: 40px;
+	margin: 20px;
+	transition: 100ms;
+	-webkit-transition: 100ms;
+	-moz-transition: 100ms;
+	-ms-transition: 100ms;
+	-o-transition: 100ms;
+	cursor: pointer;
+	margin-left: 12px;
 }
+label:active {
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+}
+#show,
+#close {
+	display: none;
+}
+div.show {
+	width: 700px;
+	height: 300px;
+	background-color: whitesmoke;
+	margin: 50px auto;
+	position: absolute;
+	left: -180%;
+	transition: 300ms;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+}
+div.show > .border {
+	font-size: 16px;
+	padding: 20px;
+	color: #202020;
+	font-weight: bold;
+	border-bottom: 2px solid #c8c6c6;
+	width: 90%;
+	margin: 0 auto;
+}
+div.show > div > p {
+	font-size: 14px;
+	padding: 20px 50px;
+	margin-top: 20px;
+}
+#show:checked ~ div.show {
+	left: 190%;
+	z-index: 999999;
+	width: 700px;
+	height: 300px;
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+label[for="close"] {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color: #2b2b2b;
+	cursor: pointer;
+}
+#close:checked ~ div.show {
+	left: -180%;
+}
+
 :root {
 	font-family: Byekan;
 }
