@@ -220,6 +220,7 @@ label[for="close"] {
 }
 #close:checked ~ div.show {
 	left: -180%;
+	display: none;
 }
 
 :root {
